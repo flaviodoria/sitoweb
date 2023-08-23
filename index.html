@@ -4,12 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flavio Doria | Homepage</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/Favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styleBS.css">
     <meta property="og:title" content="Flavio Doria | Homepage" />
     <meta property="og:description" content="Vuoi migliore l'esperienza utente del tuo sito? Contattami!" />
     <meta property="og:type" content="website" />
@@ -26,112 +23,127 @@
 </script>
   </head>
   <body>
+    <div class="container my-4">
     <!-- Header -->
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container my-4">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo-lettering.svg" alt="Logo"> <!-- Inserisci il percorso dell'immagine e l'attributo alt -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="index.html">Portfolio</a>
-              <a class="nav-link" href="about_me.html">About me</a>
-              <a class="nav-link" href="#form">Contact me</a>
-            </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./indexBS.html">HOMEPAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form">CONTACT ME</a></li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
-        <!-- Contatainer -->
-      <div class="container my-4">
-        <section class="Text">
-<h1>Benvenuta/o nel mio sito!</h1>
-<h2>Sono uno studente di UX design e mi piace creare esperienze digitali coinvolgenti e incentrate sugli utenti.<br><br>
-  Sono sempre alla ricerca di nuovi progetti, e sono disponibile per collaborazioni e opportunità di lavoro nel settore.<br>
-  Scorri per vedere il mio portfolio e i progetti che ho realizzato durante il mio percorso di studi.
-</h2>
-        </section>
-    <!-- Portfolio -->
-        <section class="portfolio">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="project">
-                    <a href="https://drive.google.com/file/d/1UWr2nv6II6nrEJxOtC_ut_SYjdrby9s4/view" target="_blank"><img src="assets/images/sunnee.svg" class="img-fluid w-100" alt="immagine progetto Sunnee"></a>
-                  <h5 class="project-title">Sunnee Beachwear</h5>
-                  <h6 class="project-subtitle mb-2">Branding ● Graphic Design</h6>
-                  <p class="project-text">Realizzazione di brand identity, logo e post social network per Sunnee Beachwear.</p>
-                </div>
+    <!-- Testi -->
+  <div class="container my-4">
+    <section class="text">
+      <div class="col-md-12">
+        <h6 class="display-6">Hi, i'm Flavio Doria</h3>
+        <h1 class="display-1">UX-UI DESIGNER</h1>
+    </div>
+    </section>
+     <!-- About -->
+    <section class="about">
+    <p class="paragraph">
+      This portfolio has been created to showcase the projects I have worked on during my educational journey at <span class="testo-rosso">start2impact University.</span> <br><br>The portfolio is continuously updated.
+    </p>
+    </section>
+            <!-- Progetti -->
+    <section class="project">
+      <div class="row justify-content-center">
+        <p class="portfolio-text">
+          LATEST WORKS</p>
+          <div class="col-sm-6">
+            <div class="project-box">
+                  <a href="https://www.figma.com/proto/pfWql1sFw6JFr3FUU48rga/iVegan-Redesign-(presentazione)?page-id=0%3A1&type=design&node-id=31-5&viewport=420%2C655%2C0.03&t=3JCdybqZa0hXZeiS-1&scaling=scale-down-width&mode=design" target="_blank"><img src="assets/images/Copertina-ivegan-sitoweb-2.svg" class="img-fluid w-100 " alt="immagine progetto iVegan"></a>
+                  <h5 class="project-title">iVegan</h5>
+                  <p class="project-text">Website redesign.</p>
+                  <button class="project-button">Go to the project</button>
               </div>
-              <div class="col-md-4">
-                <div class="project">
-                  <a href="https://drive.google.com/file/d/15KWM9rm9YsP5BwZagB0I8gvOqMDv906a/view?usp=share_link" target="_blank"><img src="assets/images/Kreas.svg" class="img-fluid w-100" alt="immagine progetto Krèas"></a>
-                <h5 class="project-title">Krèas</h5>
-                <h6 class="project-subtitle mb-2">Copywriting</h6>
-                <p class="project-text">Scrittura blog-post per Krèas.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="project">
-                <a href="https://drive.google.com/file/d/1z2nI-oAnqdjHhVhhuwQMDlIfKGgwOUpq/view?usp=share_link" target="_blank"><img src="assets/images/personal_website.svg" class="img-fluid w-100" alt="immagine progetto sito web personale"></a>
-              <h5 class="project-title">Personal website</h5>
-              <h6 class="project-subtitle mb-2">Html ● Css</h6>
-              <p class="project-text">Design e svilupppo sito web/portfolio personale.</p>
-            </div>
           </div>
-              </div>
-      </section>
-       <!-- form -->
-      <section class="form-section" id="form" onsubmit="sendMail(event)">
-        <div class="container">
-          <h1>Contact me</h1>
-          <div class="row justify-content-center">
-            <div class="col-md-10">
-              <form>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="name">Nome</label>
-                      <input type="text" class="form-control" id="name" name="name" required placeholder="Inserisci il tuo nome completo" style="width: 100%;">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="email">Indirizzo email</label>
-                      <input type="email" class="form-control" id="email" name="email" required placeholder="Inserisci il tuo indirizzo email" style="width: 100%;">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="message">Messaggio</label>
-                  <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Scrivi qui il tuo messaggio..." style="width: 100%;"></textarea>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary" onclick="sendMail()">Invia</button>
-                </div>
-              </form>
+          <div class="col-sm-6">
+            <div class="project-box">
+              <a href="https://www.figma.com/proto/ZZZalGeTaA7KiyAfKaIqxG/(Presentazione)-%E2%80%9CProgetto-Finale-UXUI-Flavio-Doria%E2%80%9D?page-id=0%3A1&type=design&node-id=1-33&viewport=440%2C15328%2C0.2&t=oi0gEUZfCRHyzoV0-1&scaling=contain&mode=design" target="_blank">
+                <img src="assets/images/Copertina-stockx-sitoweb-2.svg" class="img-fluid w-100" alt="immagine progetto StockX">
+              </a>
+              <h5 class="project-title">StockX</h5>
+              <p class="project-text">Website redesign.</p>
+              <button class="project-button">Go to the project</button>
             </div>
+          </div>  
+    </div>
+    </section>
+      <!-- form -->
+      <section class="form-section" id="form" onsubmit="sendMail(event)">
+        <div class="row">
+          <p class="info-text">
+            CONTACT ME FOR MORE INFO</p>
+            <div class="col-md-6">
+              <div class="form-left-container">
+                <div class="left-content">
+                  <div class="d-flex flex-column align-items-center">
+                    <img src="./assets/images/e-mail.svg" alt="Immagine" class="centered-image" width="200px">
+                    <p class="info-text-2">
+                      Send me a message or view my profiles
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="./assets/images/instagram-icon.svg" alt="Icon 1" class="small-icon">
+                      <img src="./assets/images/github-icon.svg" alt="Icon 1" class="small-icon">
+                      <img src="./assets/images/linkedin-icon.svg" alt="Icon 1" class="small-icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>            
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your full name.">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email address.">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary custom-btn">SEND</button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
-</div>
+    </div>
+  </div>
  <!-- footer -->
 <footer>
-  <h5>Se vuoi scoprire di più su di me, visita i miei profili:</h5>
-  <div class="social">
-    <a href="https://instagram.com/flavio9doria?igshid=OTJhZDVkZWE=" target="_blank">
-      <img src="./assets/images/Instagram.svg" width="50px" alt="logo instagram">
-    </a>
-    <a href="https://www.linkedin.com/in/flavio-doria0098/" target="_blank">
-      <img src="./assets/images/LinkedIn.svg" width="50px" alt="logo linkedIn">
-    </a>
-    <a href="https://github.com/flaviodoria" target="_blank">
-      <img src="./assets/images/Github.svg" width="50px" alt="logo github">
-    </a>
+  <p class="info-text-3">
+    Designed and developed by Flavio Doria.<br>2023
+  </p>
+  <div class="d-flex justify-content-center align-items-center">
+    <img src="./assets/images/instagram-icon-2.svg" alt="Icon 1" class="small-icon-2">
+    <img src="./assets/images/github-icon-2.svg" alt="Icon 1" class="small-icon-2">
+    <img src="./assets/images/linkedin-icon-2.svg" alt="Icon 1" class="small-icon-2">
   </div>
-  <h6>Designed by Flavio Doria.</h6>
 </footer>
-      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
-</html
+</html>
