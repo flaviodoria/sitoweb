@@ -3,17 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flavio Doria | About me</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/Favicon.svg">
+    <title>Flavio Doria | Homepage</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <meta property="og:title" content="Flavio Doria | About me" />
+    <link rel="stylesheet" href="./assets/css/styleBS.css">
+    <meta property="og:title" content="Flavio Doria | Homepage" />
     <meta property="og:description" content="Vuoi migliore l'esperienza utente del tuo sito? Contattami!" />
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://flaviodoria.github.io/sitoweb/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://flaviodoriaux.github.io/sitoweb/" />
     <meta property="og:image" content src="./assets/images/website-design.svg"/>
     <script src="index.js"></script>
     <script type="text/javascript"
@@ -26,169 +23,150 @@
 </script>
   </head>
   <body>
-     <!-- Header -->
-    <section class="Header">
-      <nav class="navbar sticky-top navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container my-4">
+    <!-- Header -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container my-4">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo-lettering.svg" alt="Logo"> <!-- Inserisci il percorso dell'immagine e l'attributo alt -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="index.html">Portfolio</a>
-              <a class="nav-link" href="about_me.html">About me</a>
-              <a class="nav-link" href="#form">Contact me</a>
-            </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./indexBS.html">HOMEPAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form">CONTACT ME</a></li>
+            </ul>
           </div>
         </div>
       </nav>
-    </section> 
-        <!-- container -->
-   <div class="container my-4">
-     <section class="Text">
-      <h1>Cosa faccio:</h1>
-        <h2>Grazie al mio percorso di studi presso Start2impact University, ho acquisito un'ottima conoscenza delle best practices di Ux e Ui design e dei principali strumenti utilizzati per la progettazione di siti web e app.<br><br>
-            Sono sempre alla ricerca di nuove sfide e opportunità per migliorare le mie competenze e offrire soluzioni creative ai problemi degli utenti.
-        </h2>
-    </section>
-      <!-- hard skill -->
-<section class="hard-skill-section">
-  <div class="row py-5">
-    <div class="col-md-6 col-lg-6 col-xl-6 text-center px-4"> 
-      <div class="hard-skill">
-        <img class="hard-skill-img" src="./assets/images/idea.svg" alt="Branding">
-        <p class="hard-skill-title">Logo design</p>
-      </div>
-      <p class="skill-text">Ideazione e creazione del tuo logo personalizzato.</p>
-    </div>
-    <div class="col-md-6 col-lg-6 col-xl-6 text-center px-4">
-      <div class="hard-skill">
-        <img class="hard-skill-img" src="./assets/images/write.svg" alt="Copywriting">
-        <p class="hard-skill-title">Copywriting</p>
-      </div>
-      <p class="skill-text">Scrittura di articoli per pagine e siti web.</p>
-    </div>
-    <div class="col-md-6 col-lg-6 col-xl-6 text-center px-4"> 
-      <div class="hard-skill">
-        <img class="hard-skill-img" src="./assets/images/website-design.svg" alt="Ux design">
-        <p class="hard-skill-title">Ux/Ui Design</p>
-      </div>
-      <p class="skill-text">Miglioramento dell'esperienza utente di siti web e applicazioni.</p>
-    </div>
-    <div class="col-md-6 col-lg-6 col-xl-6 text-center px-4">
-      <div class="hard-skill">
-        <img class="hard-skill-img" src="./assets/images/development.svg" alt="Sviluppo web">
-        <p class="hard-skill-title">Sviluppo Web</p>
-      </div>
-    <p class="skill-text">Creazione di siti web responsive, partendo dal design fino allo sviluppo.</p>
-    </div>
-  </div>
-  </section>
- <!-- skill and tools -->
-<section class="skill-and-tools">
-<div class="row">
-  <div class="col-6"> 
-<div class="soft-skill-box flex-fill p-3">
-  <p class="Box-title">Soft skill</p>
-  <div class="soft-skill"><img src="./assets/images/People-Oriented.svg" class="soft-skill-image" alt="People Oriented">
-    <p class="soft-skill-text">People Oriented</p></div>
-     <div class="soft-skill"><img src="./assets/images/Creativita.svg" class="soft-skill-image" alt="Creatività">
-    <p class="soft-skill-text">Creatività</p></div>
-    <div class="soft-skill"><img src="./assets/images/Precisione.svg" class="soft-skill-image" alt="Precisione">
-    <p class="soft-skill-text">Precisione</p></div>
-     <div class="soft-skill"><img src="./assets/images/Team Working.svg" class="soft-skill-image" alt="Team Working">
-    <p class="soft-skill-text">Team Working</p></div>
-     <div class="soft-skill"><img src="./assets/images/Proattivita.svg" class="soft-skill-image" alt="Proattività">
-    <p class="soft-skill-text">Proattività</p></div>
-      <div class="bottom-text">
-      <div class="small-text">Certified by Start2impact University</div>
-      </div>
-</div>
-    </div>
-    <div class="col-6"> 
-      <div class="tools-box flex-fill p-3">
-        <p class="Box-title">Tools</p>
-        <div class="tool">
-          <img src="./assets/images/figma.svg" class="tools-image" alt="Figma">
-    <p class="tool-text">Figma</p></div>
-<div class="bar">
-  <div class="figma-bar">
-  </div>
-      </div>
-      <div class="tool">
-        <img src="./assets/images/adobe_illustrator.svg" class="tools-image" alt="Adobe illustrator">
-  <p class="tool-text">Adobe illustrator</p></div>
-<div class="bar">
-<div class="ai-bar">
-</div>
-    </div>
-    <div class="tool">
-      <img src="./assets/images/html_5.svg" class="tools-image" alt="Html">
-<p class="tool-text">Html</p></div>
-<div class="bar">
-<div class="html-bar">
-</div>
-  </div>
-  <div class="tool">
-    <img src="./assets/images/css_3.svg" class="tools-image" alt="Css">
-<p class="tool-text">Css</p></div>
-<div class="bar">
-<div class="css-bar">
-</div>
-</div>
-  </div>
+    </header>
+    <!-- Testi -->
+  <div class="container my-4">
+    <section class="text">
+      <div class="col-md-12">
+        <h6 class="display-6">Explore my</h3>
+        <h1 class="display-1">PORTFOLIO</h1>
     </div>
     </section>
-    <!--form -->
-    <section class="form-section" id="form" onsubmit="sendMail(event)">
-      <div class="container">
-        <h1>Contact me</h1>
-        <div class="row justify-content-center">
-          <div class="col-md-10">
-            <form>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="name">Nome</label>
-                    <input type="text" class="form-control" id="name" name="name" required placeholder="Inserisci il tuo nome completo" style="width: 100%;">
+     <!-- About -->
+    <section class="about">
+    <p class="paragraph">
+On this page, you can find my complete portfolio showcasing all the projects I have worked on, including projects in the categories of copywriting, graphic design, logo design, and web development. <br><br><span class="testo-rosso"> Scroll down to see more.</span></p>
+    </section>
+            <!-- Progetti -->
+            <section class="project justify-content-center">
+                <div class="row">
+                  <p class="portfolio-text">
+                    ALL MY WORKS</p>
+                    <div class="col-sm-6">
+                        <div class="project-box">
+                              <a href="https://www.figma.com/proto/pfWql1sFw6JFr3FUU48rga/iVegan-Redesign-(presentazione)?page-id=0%3A1&type=design&node-id=31-5&viewport=420%2C655%2C0.03&t=3JCdybqZa0hXZeiS-1&scaling=scale-down-width&mode=design" target="_blank"><img src="assets/images/Copertina-ivegan-sitoweb-2.svg" class="img-fluid w-100 " alt="immagine progetto iVegan"></a>
+                              <h5 class="project-title">iVegan</h5>
+                              <p class="project-text">Website redesign.</p>
+                              <button class="project-button">Go to the project</button>
+                          </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="project-box">
+                          <a href="https://drive.google.com/file/d/14Zj6TgflVxrE1t4XO5Lp2HUy7ubsR9oh/view?usp=sharing" target="_blank">
+                            <img src="assets/images/Copertina-kreas-sitoweb-2.svg" class="img-fluid w-100" alt="immagine progetto Krèas">
+                          </a>
+                          <h5 class="project-title">Krèas</h5>
+                          <p class="project-text">Blog Post for Krèas.</p>
+                          <button class="project-button">Go to the project</button>
+                        </div>
+                      </div>  
+                      <div class="col-sm-6">
+                        <div class="project-box">
+                           <a href="https://drive.google.com/file/d/1UWr2nv6II6nrEJxOtC_ut_SYjdrby9s4/view?usp=sharing" target="_blank"><img src="assets/images/Copertina-sunnee-sitoweb-2.svg" class="img-fluid w-100" alt="immagine progetto Sunnee"></a>
+                           <h5 class="project-title">Sunnee</h5>
+                           <p class="project-text">Logo&Graphic design.</p>
+                           <button class="project-button">Go to the project</button>
+                          </div>
+                   </div>
+                   <div class="col-sm-6">
+                    <div class="project-box">
+                       <a href="https://www.figma.com/proto/ZZZalGeTaA7KiyAfKaIqxG/(Presentazione)-%E2%80%9CProgetto-Finale-UXUI-Flavio-Doria%E2%80%9D?page-id=0%3A1&type=design&node-id=1-33&viewport=440%2C15328%2C0.2&t=oi0gEUZfCRHyzoV0-1&scaling=contain&mode=design" target="_blank"><img src="assets/images/Copertina-stockx-sitoweb-2.svg" class="img-fluid w-100" alt="immagine progetto StockX"></a>
+                       <h5 class="project-title">StockX</h5>
+                       <p class="project-text">Website redesign.</p>
+                       <button class="project-button">Go to the project</button>
+                      </div>
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="email">Indirizzo email</label>
-                    <input type="email" class="form-control" id="email" name="email" required placeholder="Inserisci il tuo indirizzo email" style="width: 100%;">
+                  <div class="col-sm-6">
+                    <div class="project-box">
+                       <a href="https://drive.google.com/file/d/1z2nI-oAnqdjHhVhhuwQMDlIfKGgwOUpq/view?usp=sharing" target="_blank"><img src="assets/images/Copertina-personal_website-sitoweb-2.svg" class="img-fluid w-100" alt="immagine progetto personal website"></a>
+                       <h5 class="project-title">Personal Website</h5>
+                       <p class="project-text">Developing of my first personal website.</p>
+                       <button class="project-button">Go to the project</button>
+                      </div>
                   </div>
+              </div>
+              </section>
+<!-- form -->
+<section class="form-section" id="form" onsubmit="sendMail(event)">
+    <div class="row">
+      <p class="info-text">
+        CONTACT ME FOR MORE INFO</p>
+        <div class="col-md-6">
+          <div class="form-left-container">
+            <div class="left-content">
+              <div class="d-flex flex-column align-items-center">
+                <img src="./assets/images/e-mail.svg" alt="Immagine" class="centered-image" width="200px">
+                <p class="info-text-2">
+                  Send me a message or view my profiles
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./assets/images/instagram-icon.svg" alt="Icon intagram" class="small-icon">
+                  <img src="./assets/images/github-icon.svg" alt="Icon github" class="small-icon">
+                  <img src="./assets/images/linkedin-icon.svg" alt="Icon linkedin" class="small-icon">
                 </div>
               </div>
-              <div class="form-group">
-                <label for="message">Messaggio</label>
-                <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Scrivi qui il tuo messaggio..." style="width: 100%;"></textarea>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn btn-primary" onclick="sendMail()">Invia</button>
-              </div>
-            </form>
+            </div>
           </div>
-        </div>
+        </div>            
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your full name.">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email address.">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary custom-btn">SEND</button>
+          </div>
+        </form>
       </div>
-    </section>
-  </div>
-        <!--footer -->
-      <footer>
-  <h5>Se vuoi scoprire di più su di me, visita i miei profili:</h5>
-  <div class="social">
-    <a href="https://instagram.com/flavio9doria?igshid=OTJhZDVkZWE=" target="_blank">
-      <img src="./assets/images/Instagram.svg" width="50px" alt="logo instagram">
-    </a>
-    <a href="https://www.linkedin.com/in/flavio-doria0098/" target="_blank">
-      <img src="./assets/images/LinkedIn.svg" width="50px" alt="logo linkedin">
-    </a>
-    <a href="https://github.com/flaviodoria" target="_blank">
-      <img src="./assets/images/Github.svg" width="50px" alt="logo github">
-    </a>
-  </div>
-  <h6>Designed by Flavio Doria.</h6>
-</footer>
+    </div>
+  </section>
+</div>
+</div>
+ <!-- footer -->
+ <footer>
+    <p class="info-text-3">
+      Designed and developed by Flavio Doria.<br>2023
+    </p>
+    <div class="d-flex justify-content-center align-items-center">
+      <img src="./assets/images/instagram-icon-2.svg" alt="Icon 1" class="small-icon-2">
+      <img src="./assets/images/github-icon-2.svg" alt="Icon 1" class="small-icon-2">
+      <img src="./assets/images/linkedin-icon-2.svg" alt="Icon 1" class="small-icon-2">
+    </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
