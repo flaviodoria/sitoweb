@@ -234,7 +234,6 @@ label {
   border-radius: 2px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  text-decoration: none;
 }
 
 .project-button:hover {
@@ -377,3 +376,4 @@ width: 100px !important;
       display: none;
      }
 }
+
