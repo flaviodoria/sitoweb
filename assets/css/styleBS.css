@@ -378,5 +378,5 @@ width: 100px !important;
 }
 
 .project-link {
-  text-decoration: none;
+  text-decoration: none !important;
 }
