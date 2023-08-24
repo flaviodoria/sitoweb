@@ -309,6 +309,7 @@ label {
   }
   .navbar-collapse {
     text-align: center; 
+    margin: 10px;
   }
   .project-text{
     font-family: 'Orbitron', sans-serif;
