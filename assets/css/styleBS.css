@@ -376,3 +376,7 @@ width: 100px !important;
       display: none;
      }
 }
+
+.project-link {
+  text-decoration: none !important;
+}
