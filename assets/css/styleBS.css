@@ -10,13 +10,6 @@ body{
     background: #F5F5E8; 
   }
 
-  .sticky-header{
-    position: sticky !important;
-    top: 0;
-    z-index: 1000; /* Assicurati che l'header sia sopra gli altri elementi */
-  }
-  
-
 /*Navbar*/
 
 .navbar{
