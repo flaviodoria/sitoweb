@@ -385,3 +385,6 @@ width: 100px !important;
      }
 }
 
+a{
+  text-decoration-line: none;
+}
