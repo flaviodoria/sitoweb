@@ -24,12 +24,14 @@ margin-right: auto;
 .nav-link{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
+  font-size: 16px;
   color: #000000;
 }
 
 .nav-link:hover{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
+  font-size: 16px;
   color: rgb(164, 71, 71);
 }
 
