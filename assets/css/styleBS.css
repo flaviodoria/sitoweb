@@ -24,14 +24,12 @@ margin-right: auto;
 .nav-link{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
-  letter-spacing: 2px;
   color: #000000;
 }
 
 .nav-link:hover{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
-  letter-spacing: 2px;
   color: rgb(164, 71, 71);
 }
 
@@ -111,7 +109,6 @@ h1{
   .project-title{
     font-family: 'Courier Prime', monospace;
     font-weight: 700;
-    letter-spacing: 1px;
     font-size: 24px;
     margin-top: 16px;
     text-decoration: none;
@@ -121,7 +118,6 @@ h1{
   .project-text{
     font-family: 'Courier Prime', monospace;
     font-weight: 700;
-    letter-spacing: 1.5px;
     font-size: 16px;
     color: rgb(95, 95, 95);
     text-decoration: none;
@@ -187,7 +183,6 @@ padding-top:80px;
 
 label {
   font-family: 'Courier Prime', monospace;
-  letter-spacing:1px;
   font-size: 20px;
   color: rgb(12, 12, 12);
   padding-bottom: 16px;
@@ -201,7 +196,6 @@ label {
 .btn-primary{
   font-family: 'Courier Prime', monospace;
   font-size: 20px;
-  letter-spacing: 1px;
   background-color: #000000;
   color: white;
   border: none;
@@ -216,7 +210,6 @@ label {
 .btn-primary:hover{
   font-family: 'Courier Prime', monospace;
   font-size: 20px;
-  letter-spacing: 1px;
   background-color: rgb(164, 71, 71);
   color: white;
   border: none;
@@ -231,7 +224,6 @@ label {
   font-family: 'Courier Prime', monospace;
   font-size: 14px;
   padding: 8px 16px;
-  letter-spacing: 1px;
   background-color: #000000;
   color: white;
   border: none;
@@ -260,7 +252,6 @@ label {
 .info-text{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
-  letter-spacing:2px;
   font-size: 24px;
   color: rgb(12, 12, 12);
   padding-top: 56px;
@@ -273,7 +264,6 @@ label {
 .info-text-2{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
-  letter-spacing:2px;
   font-size: 16px;
   color: rgb(12, 12, 12);
   justify-content: center;
@@ -314,7 +304,6 @@ label {
   .project-text{
     font-family: 'Courier Prime', monospace;
     font-weight: 700;
-    letter-spacing: 1.5px;
     font-size: 12px;
     color: rgb(95, 95, 95);
   }
@@ -324,7 +313,6 @@ label {
   .project-text{
     font-family: 'Courier Prime', monospace;
     font-weight: 700;
-    letter-spacing: 1.5px;
     font-size: 10px;
     color: rgb(95, 95, 95);
   }
@@ -337,7 +325,6 @@ footer{
 .info-text-3{
   font-family: 'Courier Prime', monospace;
   font-weight: 700;
-  letter-spacing:2px;
   font-size: 14px;
   color: #ffffff;
   justify-content: center;
