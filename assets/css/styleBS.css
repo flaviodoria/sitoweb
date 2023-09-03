@@ -1,9 +1,7 @@
 /*link font*/
-
-@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-/* Inserisci questo codice nel tuo file CSS */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
 
 
 
@@ -24,14 +22,14 @@ margin-right: auto;
 
 
 .nav-link{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-weight: 700;
   letter-spacing: 2px;
   color: #000000;
 }
 
 .nav-link:hover{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-weight: 700;
   letter-spacing: 2px;
   color: rgb(164, 71, 71);
@@ -111,7 +109,7 @@ h1{
 
 
   .project-title{
-    font-family: 'Special Elite';
+    font-family: 'Courier Prime', monospace;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 24px;
@@ -121,7 +119,7 @@ h1{
   }
 
   .project-text{
-    font-family: 'Special Elite';
+    font-family: 'Courier Prime', monospace;
     font-weight: 700;
     letter-spacing: 1.5px;
     font-size: 16px;
@@ -131,7 +129,7 @@ h1{
 
 
 .portfolio-text{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-size: 24px;
   color: rgb(164, 71, 71);
   margin-left: 30px;
@@ -139,7 +137,7 @@ h1{
 }
 
   .about{
-    font-family: 'Special Elite';
+    font-family: 'Courier Prime', monospace;
     font-weight: 700;
     font-size: 20px;
     color: rgb(12, 12, 12);
@@ -174,7 +172,7 @@ padding-top:80px;
   box-shadow: none !important;
   border: none !important;
   border-bottom: 3px solid rgb(159, 159, 159) !important;
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   border-radius: 0px;
   letter-spacing: 1px;
   font-size: 16px;
@@ -188,7 +186,7 @@ padding-top:80px;
 }
 
 label {
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   letter-spacing:1px;
   font-size: 20px;
   color: rgb(12, 12, 12);
@@ -201,7 +199,7 @@ label {
 }
 
 .btn-primary{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-size: 20px;
   letter-spacing: 1px;
   background-color: #000000;
@@ -216,7 +214,7 @@ label {
 }
 
 .btn-primary:hover{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-size: 20px;
   letter-spacing: 1px;
   background-color: rgb(164, 71, 71);
@@ -230,7 +228,7 @@ label {
 
 /* Stile per il button "Project-button" */
 .project-button {
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-size: 14px;
   padding: 8px 16px;
   letter-spacing: 1px;
@@ -260,7 +258,7 @@ label {
 
 
 .info-text{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-weight: 700;
   letter-spacing:2px;
   font-size: 24px;
@@ -273,7 +271,7 @@ label {
 }
 
 .info-text-2{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-weight: 700;
   letter-spacing:2px;
   font-size: 16px;
@@ -314,7 +312,7 @@ label {
     margin: 10px;
   }
   .project-text{
-    font-family: 'Special Elite';
+    font-family: 'Courier Prime', monospace;
     font-weight: 700;
     letter-spacing: 1.5px;
     font-size: 12px;
@@ -324,7 +322,7 @@ label {
 
 @media (min-width: 570px) and (max-width: 770px) {
   .project-text{
-    font-family: 'Special Elite';
+    font-family: 'Courier Prime', monospace;
     font-weight: 700;
     letter-spacing: 1.5px;
     font-size: 10px;
@@ -337,7 +335,7 @@ footer{
 }
 
 .info-text-3{
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime', monospace;
   font-weight: 700;
   letter-spacing:2px;
   font-size: 14px;
